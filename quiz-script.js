@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    alert("quiz");
-  var counter = 120;
+    // alert("quiz");
+  var counter = 400;
   var timer = $("#timer").text(counter);
-  var timeLeft = 120;
+  var timeLeft = 0;
 
   function convertSeconds(s) {
     var minutes = floor(s / 60);
@@ -12,9 +12,15 @@ $(document).ready(function() {
 
   function timeIt() {
     counter--;
-    $("#timer").html(counter,convertSeconds);
+    $("#timer").html(counter);
+    if(counter === 0){
+    
+      clearInterval(interval)
+      $(".content").html("<div><strong>TO SLOW</strong></div>");
+      
+    }
   }
 
-  setInterval(timeIt, 1000);
+  var interval= setInterval(timeIt, 1000);
 
 });

@@ -1,7 +1,7 @@
 // variables
 
 $(document).ready(function() {  
-  alert("app");
+  // alert("app");
   var currentQuestion = 0;
   var score = 0;
   var totQuestions = questions.length;
@@ -24,7 +24,7 @@ $(document).ready(function() {
     $("#opt3").html(q.option3);
     $("#opt4").html(q.option4);
   };
-  function loadNextQuestion() {
+  function loadNextQuestion(){
     //check whther or not the rario nutton is selected
     var selectedOption= document.querySelector("input[type=radio]:checked")
     if(!selectedOption){
