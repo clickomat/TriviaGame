@@ -14,7 +14,7 @@ var questions = [
     option2: "San Diego",
     option3: "Las Angeles",
     option4: "Carlsbad",
-    answer: "1"[1],
+    answer: "1",
   },
   {
     question: "What is the official gun of Utah?",
