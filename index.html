@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- jquery CDN -->
-    <script   src="http://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- my css -->
@@ -20,10 +20,14 @@
         <div class="header">
             <h1>Trivia Game </h1>
         </div>
+        <div class="clock">Time left
+            <div id="timer">02:00</div>
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+
+        </div>
         <div class="content">
-            <div class="clock">Time left
-                <div id="timer"></div>
-            </div>
+
 
             <div id="quizContainer" class="container">
                 <div id="question" class="question"></div>
@@ -43,10 +47,12 @@
                     <input type="radio" name="option" id="btn" class="radio" value="4">
                     <span class="answers" id="opt4"></span>
                 </label>
-                <button id="nextButon" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+                <div class="correct"></div>
+                <button id="nextButton" class="next-btn">Next Question</button>
 
             </div>
             <div id="result" class="containerResult" style="display:none;"></div>
+
         </div>
         <script src="./questions.js"></script>
         <script src="./app.js"></script>

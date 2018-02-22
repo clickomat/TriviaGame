@@ -92,6 +92,17 @@ body {
   background: var(--primarybg);
   color: var(--dark);
 }
+.correct{  width: 470px;
+  display: inline-block;
+  padding: 10px 0 10px 15px;
+  margin: 0.1em;
+  vertical-align: middle;
+  background: var(--secondarybg);
+  opacity: 0.7;
+  margin-top: 10px 0 10px 10px;
+  color: var(--color);
+  border-radius: 20px;
+  border: solid 1px #333;}
 .next-btn {
   border: none;
   outline: none;

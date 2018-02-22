@@ -14,7 +14,7 @@ var questions = [
     option2: "San Diego",
     option3: "Las Angeles",
     option4: "Carlsbad",
-    answer: "1"
+    answer: "1"[1],
   },
   {
     question: "What is the official gun of Utah?",
@@ -33,7 +33,7 @@ var questions = [
     answer: "0"
   },
   {
-    question: "How big is Texas's ego compared to its actual size on a one to ten scale? One being the same size and ten being larger by a factor of ten.",
+question: "How much did you enjoy this quiz?",
     option1: "0-2",
     option2: "2-5",
     option3: "5-7",
