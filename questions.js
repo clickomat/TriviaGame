@@ -6,7 +6,8 @@ var questions = [
     option2: "Phoenix, AZ",
     option3: "Tallahassee, FLA",
     option4: "Honolulu, HI",
-    answer: "3"
+    answer: "Honolulu, HI",
+    help: "Hanaʻo, is this capitols indegenious word for help."
   },
   {
     question: "What is considered the birthplace of California?",
@@ -14,7 +15,8 @@ var questions = [
     option2: "San Diego",
     option3: "Las Angeles",
     option4: "Carlsbad",
-    answer: "1",
+    answer: "San Diego",
+    help:"Its a german word for whales you know what."
   },
   {
     question: "What is the official gun of Utah?",
@@ -22,7 +24,8 @@ var questions = [
     option2: "22 LR",
     option3: "Colt Revolver",
     option4: "Browning 1911",
-    answer: "3"
+    answer: "Browning 1911",
+    help:"The same year that Chevorlet entered the automotive market"
   },
   {
     question: "What is the State bird of Connecuticut",
@@ -30,7 +33,8 @@ var questions = [
     option2: "Crane",
     option3: "Plover",
     option4: "Gull",
-    answer: "0"
+    answer: "Robin",
+    help:"Batmans compadre."
   },
   {
 question: "How much did you enjoy this quiz?",
@@ -38,6 +42,7 @@ question: "How much did you enjoy this quiz?",
     option2: "2-5",
     option3: "5-7",
     option4: "7-10",
-    answer: "3"
+    answer: "7-10",
+    help:"Siete-diaz"
   },
 ];

@@ -1,5 +1,8 @@
 
 $(".content").hide();
+$("#help").hide();
+$("#result").hide()
+$("#solution").hide()
 $(document).ready(function () {
   
   
@@ -58,3 +61,7 @@ $("#stop").on("click", function () {
   clearInterval(clock);
   $(".content").fadeOut();
 });
+
+$("#hint").on("click", function(){
+  $("#help").fadeIn(3000);
+})
