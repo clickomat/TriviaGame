@@ -2,7 +2,7 @@
 $(".content").hide();
 $("#help").hide();
 $("#result").hide()
-$("#solution").hide()
+// $("#solution").hide()
 $(document).ready(function () {
   
   
